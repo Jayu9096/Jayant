@@ -1,0 +1,10 @@
+project/
+├── app.py                 # Main Streamlit app
+├── modules/
+│   ├── __init__.py
+│   ├── option_chain.py    # Module 1: Fetch option chain
+│   ├── market_overview.py # Module 2: Market overview
+│   └── ai_trader.py       # Module 3: AI trader
+└── utils/
+    ├── __init__.py
+    └── breeze_utils.py    # Breeze API utilities
